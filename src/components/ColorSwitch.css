@@ -1,0 +1,39 @@
+.color-switch {
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 10px 20px;
+  align-self: flex-end;
+}
+
+.theme-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.theme-buttons button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.theme-buttons button.selected {
+  background-color: #353739;
+  color: #ffffff;
+}
+
+.custom-theme-inputs {
+  margin-top: 16px;
+}
+
+.custom-theme-inputs label {
+  font-size: 16px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.custom-theme-inputs input[type="color"] {
+  margin-left: 5px;
+}
